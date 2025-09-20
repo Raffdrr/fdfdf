@@ -1,4 +1,4 @@
-const CACHE_NAME = 'socialmix-cache-v5'; // Versione aggiornata per forzare l'attivazione
+const CACHE_NAME = 'socialmix-cache-v6'; // Versione aggiornata per forzare l'attivazione
 const urlsToCache = [
   '/',
   '/index.html',
