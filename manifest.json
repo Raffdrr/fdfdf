@@ -1,20 +1,20 @@
 {
-  "name": "SocialMix App",
+  "name": "SocialMix",
   "short_name": "SocialMix",
-  "description": "An application for discovering local venues and events, managing bookings, joining activities, and engaging with a social community.",
-  "start_url": "/index.html",
+  "description": "Scopri locali, crea eventi e connettiti con la tua community.",
+  "start_url": "/",
   "display": "standalone",
-  "background_color": "#f8fafc",
+  "background_color": "#f1f5f9",
   "theme_color": "#f43f5e",
   "icons": [
     {
-      "src": "https://placehold.co/192x192/f43f5e/ffffff?text=SM",
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAAAXNSR0IArs4c6QAAADFJREFUOE9j/Gf+8z8DBAACEAyo+A8WsoEZwGag5T8ycAKkG0A2DbmBFP8DkWEAoQkAZ9cvyzYfP0gAAAAASUVORK5CYII=",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "https://placehold.co/512x512/f43f5e/ffffff?text=SM",
+      "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eZLWAAAAAXNSR0IArs4c6QAAADFJREFUOE9j/Gf+8z8DBAACEAyo+A8WsoEZwGag5T8ycAKkG0A2DbmBFP8DkWEAoQkAZ9cvyzYfP0gAAAAASUVORK5CYII=",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"

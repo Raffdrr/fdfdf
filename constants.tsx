@@ -197,7 +197,7 @@ export const EVENT_COST_OPTIONS = ["Gratuito", "A Pagamento"];
 
 export const initialNotifications: NotificationItem[] = [
   { id: 'notif1', icon: Award, iconColor: 'text-amber-500', title: "Badge 'Esploratore Gourmet' Sbloccato!", description: "Complimenti, hai visitato 5 locali!", timestamp: new Date(Date.now() - 1000 * 60 * 30).toISOString(), isRead: false, link: { tabId: 'profile'}}, 
-  { id: 'notif2', icon: Clock2, iconColor: `text-${CORAL_PRIMARY}-500`, title: "Evento 'Serata Jazz & Cena Gourmet' inizia tra 1 ora!", description: "Non dimenticare il tuo evento stasera alle 20:30.", timestamp: new Date(Date.now() - 1000 * 60 * 60 * 2).toISOString(), isRead: false, link: { tabId: 'home', itemId: 'event2', itemType: 'event'}},
+  { id: 'notif2', icon: Clock2, iconColor: `text-${CORAL_PRIMARY}-500`, title: "Evento 'Serata Jazz & Cena Gourmet' inizia tra 1 ora!", description: "Non dimenticare il tuo evento stasera alle 20:30.", timestamp: new Date(Date.now() - 1000 * 60 * 60 * 2).toISOString(), isRead: false, link: { tabId: 'home', itemId: 'event2', itemType: 'event' }},
   { id: 'notif3', icon: UserCheck, iconColor: 'text-green-500', title: "Benvenuto in SocialMix!", description: "Esplora locali ed eventi vicino a te.", timestamp: new Date(Date.now() - 1000 * 60 * 60 * 24).toISOString(), isRead: true}, 
   { id: 'notif4', icon: ThumbsUp, iconColor: 'text-sky-500', title: "La tua recensione per 'Osteria del Borgo Antico' è stata pubblicata.", description: "Grazie per il tuo contributo!", timestamp: new Date(Date.now() - 1000 * 60 * 60 * 5).toISOString(), isRead: false, link: {tabId: 'home', itemId: 'loc1', itemType: 'locale'}},
 ];
@@ -216,7 +216,7 @@ export const initialChatMessages: ChatMessage[] = [
     id: 'chat2', 
     senderId: 'socialmix_support', 
     senderName: "SocialMix Support", 
-    avatar: "https://placehold.co/40x40/8b5cf6/ffffff?text=SM", 
+    avatar: "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDI1NiAyNTYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIGZpbGw9IiNmYmY5ZjMiLz4KICA8cGF0aCBkPSJNMTI4IDIyYTg4LjEgODguMSAwIDAgMC04OCA4OGMwIDMwLjQgMTQuMyA2NC4yIDQwLjggMTAwLjRhMTk3LjEgMTk3LjEgMCAwIDAgMzkuNSA0MC4xYTguMyA4LjMgMCAwIDAgOS40IDBhMTk3LjEgMTk3LjEgMCAwIDAgMzkuNS00MC4xQzIwMS43IDE3NC4yIDIxNiAxNDAuNCAyMTYgMTEwYTg4LjEgODguMSAwIDAgMC04OC04OFptMCAxMjhhNDAgNDAgMCAxIDEgNDAtNDBhNDAgNDAgMCAwIDEtNDAgNDBaIiBmaWxsPSIjMmYzZTRlIi8+CiAgPGcgZmlsbD0iI2ZiZjlmMyI+CiAgICA8cGF0aCBkPSJNMTQxLjYgMTI4YTEzLjYgMTMuNiAwIDEgMS0xMy42LTEzLjZBMTMuNiAxMy42IDAgMCAxIDE0MS42IDEyOFoiLz4KICAgIDxwYXRoIGQ9Ik0xMjIuOSA4My45YTUuMSA1LjEgMCAwIDAtNS01LjFjLTExLjItLjUtMjAuMyA4LjEtMjAuMyAxOS4zdjM5LjRhNCA0IDAgMCAwIDggMHYtMzkuNGMwLTcuMyA1LjQtMTIuMSAxMi4zLTExLjdhNS4xIDUuMSAwIDAgMCA1LTIuNVoiLz4KICAgIDxwYXRoIGQ9Im0xNTQuNSA4NGE0LjEgNC4xIDAgMCAwLTQuMS00aC05LjhjLTIuMiAwLTQuMSAxLjgtNC4xIDQuMXY1NS4xYTQuMSA0LjEgMCAxIDAgOC4yIDB2LTQwLjZoNS44YTQuMSA0LjEgMCAxIDAgMC04LjJoLTUuOHYtMi4zWiIvPgogIDwvZz4KPC9zdmc+Cg==", 
     lastMessage: "Benvenuto in SocialMix! Se hai bisogno di aiuto, non esitare a chiedere.",
     timestamp: new Date(Date.now() - 1000 * 60 * 60 * 23).toISOString(),
     unreadCount: 0,
