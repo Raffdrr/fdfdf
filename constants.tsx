@@ -197,7 +197,7 @@ export const EVENT_COST_OPTIONS = ["Gratuito", "A Pagamento"];
 
 export const initialNotifications: NotificationItem[] = [
   { id: 'notif1', icon: Award, iconColor: 'text-amber-500', title: "Badge 'Esploratore Gourmet' Sbloccato!", description: "Complimenti, hai visitato 5 locali!", timestamp: new Date(Date.now() - 1000 * 60 * 30).toISOString(), isRead: false, link: { tabId: 'profile'}}, 
-  { id: 'notif2', icon: Clock2, iconColor: `text-${CORAL_PRIMARY}-500`, title: "Evento 'Serata Jazz & Cena Gourmet' inizia tra 1 ora!", description: "Non dimenticare il tuo evento stasera alle 20:30.", timestamp: new Date(Date.now() - 1000 * 60 * 60 * 2).toISOString(), isRead: false, link: { tabId: 'home', itemId: 'event2', itemType: 'event'}},
+  { id: 'notif2', icon: Clock2, iconColor: `text-${CORAL_PRIMARY}-500`, title: "Evento 'Serata Jazz & Cena Gourmet' inizia tra 1 ora!", description: "Non dimenticare il tuo evento stasera alle 20:30.", timestamp: new Date(Date.now() - 1000 * 60 * 60 * 2).toISOString(), isRead: false, link: { tabId: 'home', itemId: 'event2', itemType: 'event' }},
   { id: 'notif3', icon: UserCheck, iconColor: 'text-green-500', title: "Benvenuto in SocialMix!", description: "Esplora locali ed eventi vicino a te.", timestamp: new Date(Date.now() - 1000 * 60 * 60 * 24).toISOString(), isRead: true}, 
   { id: 'notif4', icon: ThumbsUp, iconColor: 'text-sky-500', title: "La tua recensione per 'Osteria del Borgo Antico' è stata pubblicata.", description: "Grazie per il tuo contributo!", timestamp: new Date(Date.now() - 1000 * 60 * 60 * 5).toISOString(), isRead: false, link: {tabId: 'home', itemId: 'loc1', itemType: 'locale'}},
 ];
@@ -216,7 +216,7 @@ export const initialChatMessages: ChatMessage[] = [
     id: 'chat2', 
     senderId: 'socialmix_support', 
     senderName: "SocialMix Support", 
-    avatar: "https://placehold.co/40x40/8b5cf6/ffffff?text=SM", 
+    avatar: "https://uxwing.com/wp-content/themes/uxwing/download/location-travel-map/restaurant-location-icon.png", 
     lastMessage: "Benvenuto in SocialMix! Se hai bisogno di aiuto, non esitare a chiedere.",
     timestamp: new Date(Date.now() - 1000 * 60 * 60 * 23).toISOString(),
     unreadCount: 0,
