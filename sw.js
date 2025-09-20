@@ -2,8 +2,7 @@ const CACHE_NAME = 'socialmix-app-cache-v1';
 // Aggiungiamo i file principali da mettere in cache per un'esperienza offline di base.
 const urlsToCache = [
   '/',
-  '/index.html',
-  '/index.tsx'
+  '/index.html'
 ];
 
 // Evento di installazione: apriamo la cache e aggiungiamo i file.
