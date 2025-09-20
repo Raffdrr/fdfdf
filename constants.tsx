@@ -216,7 +216,7 @@ export const initialChatMessages: ChatMessage[] = [
     id: 'chat2', 
     senderId: 'socialmix_support', 
     senderName: "SocialMix Support", 
-    avatar: "https://uxwing.com/wp-content/themes/uxwing/download/location-travel-map/restaurant-location-icon.png", 
+    avatar: "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDI1NiAyNTYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHJlY3Qgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIGZpbGw9IiNmYmY5ZjMiLz4KICA8cGF0aCBkPSJNMTI4IDIyYTg4LjEgODguMSAwIDAgMC04OCA4OGMwIDMwLjQgMTQuMyA2NC4yIDQwLjggMTAwLjRhMTk3LjEgMTk3LjEgMCAwIDAgMzkuNSA0MC4xYTguMyA4LjMgMCAwIDAgOS40IDBhMTk3LjEgMTk3LjEgMCAwIDAgMzkuNS00MC4xQzIwMS43IDE3NC4yIDIxNiAxNDAuNCAyMTYgMTEwYTg4LjEgODguMSAwIDAgMC04OC04OFptMCAxMjhhNDAgNDAgMCAxIDEgNDAtNDBhNDAgNDAgMCAwIDEtNDAgNDBaIiBmaWxsPSIjMmYzZTRlIi8+CiAgPGcgZmlsbD0iI2ZiZjlmMyI+CiAgICA8cGF0aCBkPSJNMTQxLjYgMTI4YTEzLjYgMTMuNiAwIDEgMS0xMy42LTEzLjZBMTMuNiAxMy42IDAgMCAxIDE0MS42IDEyOFoiLz4KICAgIDxwYXRoIGQ9Ik0xMjIuOSA4My45YTUuMSA1LjEgMCAwIDAtNS01LjFjLTExLjItLjUtMjAuMyA4LjEtMjAuMyAxOS4zdjM5LjRhNCA0IDAgMCAwIDggMHYtMzkuNGMwLTcuMyA1LjQtMTIuMSAxMi4zLTExLjdhNS4xIDUuMSAwIDAgMCA1LTIuNVoiLz4KICAgIDxwYXRoIGQ9Im0xNTQuNSA4NGE0LjEgNC4xIDAgMCAwLTQuMS00aC05LjhjLTIuMiAwLTQuMSAxLjgtNC4xIDQuMXY1NS4xYTQuMSA0LjEgMCAxIDAgOC4yIDB2LTQwLjZoNS44YTQuMSA0LjEgMCAxIDAgMC04LjJoLTUuOHYtMi4zWiIvPgogIDwvZz4KPC9zdmc+Cg==", 
     lastMessage: "Benvenuto in SocialMix! Se hai bisogno di aiuto, non esitare a chiedere.",
     timestamp: new Date(Date.now() - 1000 * 60 * 60 * 23).toISOString(),
     unreadCount: 0,
