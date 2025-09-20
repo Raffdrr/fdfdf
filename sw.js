@@ -1,4 +1,4 @@
-const CACHE_NAME = 'socialmix-cache-v3'; // Versione aggiornata per forzare l'attivazione
+const CACHE_NAME = 'socialmix-cache-v4'; // Versione aggiornata per forzare l'attivazione
 const urlsToCache = [
   '/',
   '/index.html',
@@ -15,6 +15,8 @@ self.addEventListener('install', (event) => {
     caches.open(CACHE_NAME).then((cache) => {
       console.log('Service Worker: Caching app shell');
       return cache.addAll(urlsToCache);
+    }).catch(error => {
+      console.error('Service Worker: Failed to cache app shell.', error);
     })
   );
 });
@@ -32,10 +34,8 @@ self.addEventListener('activate', (event) => {
           }
         })
       )
-    )
+    ).then(() => self.clients.claim()) // Forza il service worker a prendere il controllo.
   );
-  // Forza il service worker attivato a prendere il controllo immediato della pagina.
-  return self.clients.claim();
 });
 
 // Evento fetch: adotta la strategia "Stale-While-Revalidate" per tutte le richieste.
@@ -57,7 +57,8 @@ self.addEventListener('fetch', (event) => {
           return networkResponse;
         }).catch(error => {
           console.error('Service Worker: Fetch failed; returning offline page instead.', error);
-          // Qui potresti restituire una pagina offline generica se `cachedResponse` è nullo.
+          // In un'app reale, potresti voler restituire una pagina offline di fallback qui
+          // return caches.match('/offline.html');
         });
 
         // Restituisce immediatamente la risposta dalla cache se disponibile, 
